@@ -1,0 +1,167 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0) !important;
+    scrollbar-width: thin !important;
+  }
+  html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    
+  }  
+
+.fondo{
+    
+    position: absolute;
+    background-image: url("../img/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.pokedex{
+    position: relative;
+    background-image: url("../img/Pokedex.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 550px;
+    top:100px;
+    left:100px;
+}
+
+.pokemon{
+    background-color:rgba(240, 204, 204, 0.5) ;
+    position: relative;
+    height: 158px;
+    width: 158px;
+    border-radius:100%;
+    top:29px;
+    left:216px;
+}
+
+.estadisticas{
+    position: relative;
+    background-color: transparent;
+    border-radius: 6px;
+    height: 146px;
+    width: 232px;
+    top:84px;
+    left:178px;
+    overflow-y:auto;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+}
+#name{
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+  font-weight:bold;
+  font-family: monospace;
+}
+
+#numero{
+  color: rgb(8, 8, 8);
+  font-size: 10px;
+  font-weight:bold;
+  font-family: monospace;
+}
+
+.tipos {
+  margin-left: 2px;
+  padding: 1px 2px;
+  font-size: 10px;
+  font-weight: 100;
+  color: #fff;
+  background-color: black;
+  border-color: rgb(0, 0, 10);
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+ 
+}
+
+.moves{
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+  font-weight:bold;
+  font-family: monospace;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+#marcotipos{
+ border-color: blue;
+ 
+}
+.buscar{
+    position: relative;
+    background-color: rgb(21, 255, 0);
+    border-radius:100%;
+    height: 68px;
+    width: 68px;
+    top:43px;
+    left:452px;
+}
+.avanzar{
+  position: relative;
+  background-color: rgb(12, 150, 0);
+  border-radius:50px;
+  height: 10px;
+  width: 40px;
+  top:62px;
+  left:223px;
+}
+.regresar{
+  position: relative;
+  background-color: rgb(252, 236, 22);
+
+  border-radius:50px;
+  height: 10px;
+  width: 40px;
+  top:62px;
+  left:133px;
+}
+
+.button :hover{
+    background-color: transparent;
+}
+
+#inputpokedex{
+   
+    position: relative;
+    height: 35px;
+    width: 200px;
+    top:47px;
+    left:193px;
+
+}
+
+#contenedor {
+    display: flex;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+  }
+  
+  #contenedor > div {
+    width: 50%;
+  }
+  ::-webkit-scrollbar {
+    width: 0.2rem ;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 25px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #424242;
+  }
